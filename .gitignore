@@ -1,0 +1,11 @@
+work/
+.nextflow/
+.nextflow.log*
+results/
+genome/
+data/
+*.tar.gz
+*.bam
+*.bai
+*.fastq.gz
+null/
