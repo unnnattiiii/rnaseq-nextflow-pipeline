@@ -9,3 +9,4 @@ data/
 *.bai
 *.fastq.gz
 null/
+logs/

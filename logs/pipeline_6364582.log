@@ -1,8 +1,0 @@
-
- N E X T F L O W   ~  version 25.10.4
-
-Launching `main.nf` [loquacious_poincare] DSL2 - revision: 4be009970e
-
-ERROR ~ Unknown method invocation `FASTP`
-
- -- Check script 'modules/fastp.nf' at line: 1 or see '.nextflow.log' file for more details
