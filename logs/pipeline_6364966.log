@@ -1,0 +1,258 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [cranky_goodall] DSL2 - revision: 4be009970e
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+
+[69/393498] FASTQC_RAW (CTRL_1)   | 3 of 3, cached: 3
+[7e/6354fb] FASTP (CTRL_1)        | 3 of 3, cached: 3
+[2a/d1a908] FASTQC_TRIMMED (PD_1) | 2 of 2, cached: 2
+[-        ] HISAT2                -
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[-        ] HISAT2                  | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+executor >  slurm (1)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[31/bd20d0] HISAT2 (PD_1)           | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+executor >  slurm (2)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[0e/97a17f] HISAT2 (PD_2)           | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+executor >  slurm (3)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[fe/a44b8a] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+executor >  slurm (4)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[4b/769066] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[4b/769066] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 0 of 1
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[4b/769066] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 0 of 1
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[4b/769066] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[4b/769066] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1 ✔
+ERROR ~ Error executing process > 'HISAT2 (PD_1)'
+
+Caused by:
+  Process `HISAT2 (PD_1)` terminated with an error exit status (1)
+
+
+Command executed:
+
+  hisat2 -x grch38/genome            -U PD_1.trimmed.fastq.gz            --threads 4            --dta            --temp-directory .            -S PD_1.sam
+  
+  samtools sort -o PD_1.bam PD_1.sam
+  samtools index PD_1.bam
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+                       The default value is the maximum of 5 and the value that comes with -k times 2.
+    -a/--all           HISAT2 reports all alignments it can find. Using the option is equivalent to using both --max-seeds 
+                       and -k with the maximum value that a 64-bit signed integer can represent (9,223,372,036,854,775,807).
+    --repeat           report alignments to repeat sequences directly
+  
+   Paired-end:
+    -I/--minins <int>  minimum fragment length (0), only valid with --no-spliced-alignment
+    -X/--maxins <int>  maximum fragment length (500), only valid with --no-spliced-alignment
+    --fr/--rf/--ff     -1, -2 mates align fw/rev, rev/fw, fw/fw (--fr)
+    --no-mixed         suppress unpaired alignments for paired reads
+    --no-discordant    suppress discordant alignments for paired reads
+  
+   Output:
+    -t/--time          print wall-clock time taken by search phases
+    --un <path>           write unpaired reads that didn't align to <path>
+    --al <path>           write unpaired reads that aligned at least once to <path>
+    --un-conc <path>      write pairs that didn't align concordantly to <path>
+    --al-conc <path>      write pairs that aligned concordantly at least once to <path>
+    (Note: for --un, --al, --un-conc, or --al-conc, add '-gz' to the option name, e.g.
+    --un-gz <path>, to gzip compress output, or add '-bz2' to bzip2 compress output.)
+    --summary-file <path> print alignment summary to this file.
+    --new-summary         print alignment summary in a new style, which is more machine-friendly.
+    --quiet               print nothing to stderr except serious errors
+    --met-file <path>     send metrics to file at <path> (off)
+    --met-stderr          send metrics to stderr (off)
+    --met <int>           report internal counters & metrics every <int> secs (1)
+    --no-head             suppress header lines, i.e. lines starting with @
+    --no-sq               suppress @SQ header lines
+    --rg-id <text>        set read group id, reflected in @RG line and RG:Z: opt field
+    --rg <text>           add <text> ("lab:value") to @RG line of SAM header.
+                          Note: @RG line only printed when --rg-id is set.
+    --omit-sec-seq        put '*' in SEQ and QUAL fields for secondary alignments.
+  
+   Performance:
+    -o/--offrate <int> override offrate of index; must be >= index's offrate
+    -p/--threads <int> number of alignment threads to launch (1)
+    --reorder          force SAM output order to match order of input reads
+    --mm               use memory-mapped I/O for index; many 'hisat2's can share
+  
+   Other:
+    --qc-filter        filter out reads that are bad according to QSEQ filter
+    --seed <int>       seed for random number generator (0)
+    --non-deterministic seed rand. gen. arbitrarily instead of using read attributes
+    --remove-chrname   remove 'chr' from reference names in alignment
+    --add-chrname      add 'chr' to reference names in alignment 
+    --version          print version information and quit
+    -h/--help          print this usage message
+  Error: Encountered internal HISAT2 exception (#1)
+  Command: /usr/local/bin/hisat2-align-s --wrapper basic-0 -x grch38/genome --threads 4 --dta --temp-directory . -S PD_1.sam -U /tmp/16.unp 
+  (ERR): hisat2-align exited with value 1
+
+Work dir:
+  /home/moradiya.u/rnaseq-nextflow-pipeline/work/31/bd20d0be6134adfb067344da3a57f9
+
+Container:
+  /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check '.nextflow.log' file for details
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[11/266582] FASTQC_TRIMMED (CTRL_1) | 4 of 4, cached: 4 ✔
+[31/bd20d0] HISAT2 (PD_1)           | 0 of 4 ✘
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1 ✔
+ERROR ~ Error executing process > 'HISAT2 (PD_1)'
+
+Caused by:
+  Process `HISAT2 (PD_1)` terminated with an error exit status (1)
+
+
+Command executed:
+
+  hisat2 -x grch38/genome            -U PD_1.trimmed.fastq.gz            --threads 4            --dta            --temp-directory .            -S PD_1.sam
+  
+  samtools sort -o PD_1.bam PD_1.sam
+  samtools index PD_1.bam
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+                       The default value is the maximum of 5 and the value that comes with -k times 2.
+    -a/--all           HISAT2 reports all alignments it can find. Using the option is equivalent to using both --max-seeds 
+                       and -k with the maximum value that a 64-bit signed integer can represent (9,223,372,036,854,775,807).
+    --repeat           report alignments to repeat sequences directly
+  
+   Paired-end:
+    -I/--minins <int>  minimum fragment length (0), only valid with --no-spliced-alignment
+    -X/--maxins <int>  maximum fragment length (500), only valid with --no-spliced-alignment
+    --fr/--rf/--ff     -1, -2 mates align fw/rev, rev/fw, fw/fw (--fr)
+    --no-mixed         suppress unpaired alignments for paired reads
+    --no-discordant    suppress discordant alignments for paired reads
+  
+   Output:
+    -t/--time          print wall-clock time taken by search phases
+    --un <path>           write unpaired reads that didn't align to <path>
+    --al <path>           write unpaired reads that aligned at least once to <path>
+    --un-conc <path>      write pairs that didn't align concordantly to <path>
+    --al-conc <path>      write pairs that aligned concordantly at least once to <path>
+    (Note: for --un, --al, --un-conc, or --al-conc, add '-gz' to the option name, e.g.
+    --un-gz <path>, to gzip compress output, or add '-bz2' to bzip2 compress output.)
+    --summary-file <path> print alignment summary to this file.
+    --new-summary         print alignment summary in a new style, which is more machine-friendly.
+    --quiet               print nothing to stderr except serious errors
+    --met-file <path>     send metrics to file at <path> (off)
+    --met-stderr          send metrics to stderr (off)
+    --met <int>           report internal counters & metrics every <int> secs (1)
+    --no-head             suppress header lines, i.e. lines starting with @
+    --no-sq               suppress @SQ header lines
+    --rg-id <text>        set read group id, reflected in @RG line and RG:Z: opt field
+    --rg <text>           add <text> ("lab:value") to @RG line of SAM header.
+                          Note: @RG line only printed when --rg-id is set.
+    --omit-sec-seq        put '*' in SEQ and QUAL fields for secondary alignments.
+  
+   Performance:
+    -o/--offrate <int> override offrate of index; must be >= index's offrate
+    -p/--threads <int> number of alignment threads to launch (1)
+    --reorder          force SAM output order to match order of input reads
+    --mm               use memory-mapped I/O for index; many 'hisat2's can share
+  
+   Other:
+    --qc-filter        filter out reads that are bad according to QSEQ filter
+    --seed <int>       seed for random number generator (0)
+    --non-deterministic seed rand. gen. arbitrarily instead of using read attributes
+    --remove-chrname   remove 'chr' from reference names in alignment
+    --add-chrname      add 'chr' to reference names in alignment 
+    --version          print version information and quit
+    -h/--help          print this usage message
+  Error: Encountered internal HISAT2 exception (#1)
+  Command: /usr/local/bin/hisat2-align-s --wrapper basic-0 -x grch38/genome --threads 4 --dta --temp-directory . -S PD_1.sam -U /tmp/16.unp 
+  (ERR): hisat2-align exited with value 1
+
+Work dir:
+  /home/moradiya.u/rnaseq-nextflow-pipeline/work/31/bd20d0be6134adfb067344da3a57f9
+
+Container:
+  /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+ -- Check '.nextflow.log' file for details
+

@@ -1,2 +1,3 @@
 sample,fastq_1,fastq_2
-SRR6357070,data/SRR6357070_1.fastq.gz,data/SRR6357070_2.fastq.gz
+CTRL_1,data/CTRL_1.fastq.gz,data/CTRL_2.fastq.gz
+PD_1,data/PD_1.fastq.gz,data/PD_2.fastq.gz

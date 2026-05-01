@@ -1,0 +1,117 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+WARN: It appears you have never run this project before -- Option `-resume` is ignored
+Launching `main.nf` [distracted_descartes] DSL2 - revision: 25c6d9d8f8
+
+[-        ] FASTQC_RAW -
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://biocontainers/fastp:v0.20.1_cv1 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastp-v0.20.1_cv1.img]
+Pulling Singularity image docker://biocontainers/fastqc:v0.11.9_cv8 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastqc-v0.11.9_cv8.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://biocontainers/fastp:v0.20.1_cv1 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastp-v0.20.1_cv1.img]
+Pulling Singularity image docker://biocontainers/fastqc:v0.11.9_cv8 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastqc-v0.11.9_cv8.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+ERROR ~ Error executing process > 'FASTQC_RAW (1)'
+
+Caused by:
+  Failed to pull singularity image
+    command: singularity pull  --name biocontainers-fastqc-v0.11.9_cv8.img.pulling.1777142803013 docker://biocontainers/fastqc:v0.11.9_cv8 > /dev/null
+    status : 255
+    hint   : Try and increase singularity.pullTimeout in the config (current is "20m")
+    message:
+      INFO:    Converting OCI blobs to SIF format
+      WARNING: 'nodev' mount option set on /tmp, it could be a source of failure during build process
+      INFO:    Starting build...
+      Getting image source signatures
+      Copying blob sha256:0e6dd20ee818794f2f70b3dad6316630256644ecd340435fb273da623245ca78
+      Copying blob sha256:59856638ac9f32d4caa0f5761b2597fe251642786fdfe1b917ddbb074b890c29
+      Copying blob sha256:9ff7e2e5f967fb9c4e8099e63508ab0dddebe3f820d08ca7fd568431b0d10c0e
+      Copying blob sha256:a9dde5e2a643eca8fde0eed52f4aed31f3ecd9c1b2f24d5e3729cd8d2ae68177
+      Copying blob sha256:6f317d6d954b9a59c54b2cb09e1f30cd3e872796e431cd2ceac5ed570beb2939
+      Copying blob sha256:675cac559d077f6708a9931d90e801a5834a419b80aedf8fa01499be09d0e08d
+      Copying blob sha256:374c558e71daf84e430cf7bbb4af95cec0a3d2984eff3a27858ee0d03be6049d
+      Copying blob sha256:0df3c64bb19acab06b69728650bd3c3ed7193efe01f7027a81c44e6d9910bc81
+      Copying blob sha256:e936d7784cf988634bb8c3f94b8d895416e17be11ea0540abca85d225043da4d
+      Copying blob sha256:4dfd8d164cc5809f0fb8556fb27c931ef5c319353819af28a0b4df9301e54f8d
+      Copying blob sha256:473490461998ab1efd3fb4c270d5d051d2bb65aca7c361efacb342dda4b5fef3
+      Copying blob sha256:8f5e491552e6efef12e515fdeb085d6cc85925d6167f91d1aa3cfb727c557914
+      Copying blob sha256:a66ab3a674d95f89aeb3259740e46128cec4f2d406cc1f631d14b5806483aac5
+      Copying blob sha256:18f922275a6f0d7dde75027a285dd23437bd26de80f7e66a025a49739b63db79
+      Copying blob sha256:dbd67cd33317bd46525933031a835e412c535d2ddfe831acfb4f4fd789d240bb
+      Copying blob sha256:c86651a97b9e59432161199e0348a8963a57bdc51ded0e86da5c2c281630dc52
+      Copying config sha256:db5ef85912d88ebab72a73720d640c2d901426b14cfc44936c08625ec325a8bc
+      Writing manifest to image destination
+      Storing signatures
+      FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: conveyor failed to get: while getting config: no descriptor found for reference "3e551cad9b3846a0260375b7e8ed75f20ad1dad7e0f40859cc5993dd67c0fa47"
+
+
+
+ -- Check '.nextflow.log' file for details
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://biocontainers/fastp:v0.20.1_cv1 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastp-v0.20.1_cv1.img]
+Pulling Singularity image docker://biocontainers/fastqc:v0.11.9_cv8 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/biocontainers-fastqc-v0.11.9_cv8.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+ERROR ~ Error executing process > 'FASTQC_RAW (1)'
+
+Caused by:
+  Failed to pull singularity image
+    command: singularity pull  --name biocontainers-fastqc-v0.11.9_cv8.img.pulling.1777142803013 docker://biocontainers/fastqc:v0.11.9_cv8 > /dev/null
+    status : 255
+    hint   : Try and increase singularity.pullTimeout in the config (current is "20m")
+    message:
+      INFO:    Converting OCI blobs to SIF format
+      WARNING: 'nodev' mount option set on /tmp, it could be a source of failure during build process
+      INFO:    Starting build...
+      Getting image source signatures
+      Copying blob sha256:0e6dd20ee818794f2f70b3dad6316630256644ecd340435fb273da623245ca78
+      Copying blob sha256:59856638ac9f32d4caa0f5761b2597fe251642786fdfe1b917ddbb074b890c29
+      Copying blob sha256:9ff7e2e5f967fb9c4e8099e63508ab0dddebe3f820d08ca7fd568431b0d10c0e
+      Copying blob sha256:a9dde5e2a643eca8fde0eed52f4aed31f3ecd9c1b2f24d5e3729cd8d2ae68177
+      Copying blob sha256:6f317d6d954b9a59c54b2cb09e1f30cd3e872796e431cd2ceac5ed570beb2939
+      Copying blob sha256:675cac559d077f6708a9931d90e801a5834a419b80aedf8fa01499be09d0e08d
+      Copying blob sha256:374c558e71daf84e430cf7bbb4af95cec0a3d2984eff3a27858ee0d03be6049d
+      Copying blob sha256:0df3c64bb19acab06b69728650bd3c3ed7193efe01f7027a81c44e6d9910bc81
+      Copying blob sha256:e936d7784cf988634bb8c3f94b8d895416e17be11ea0540abca85d225043da4d
+      Copying blob sha256:4dfd8d164cc5809f0fb8556fb27c931ef5c319353819af28a0b4df9301e54f8d
+      Copying blob sha256:473490461998ab1efd3fb4c270d5d051d2bb65aca7c361efacb342dda4b5fef3
+      Copying blob sha256:8f5e491552e6efef12e515fdeb085d6cc85925d6167f91d1aa3cfb727c557914
+      Copying blob sha256:a66ab3a674d95f89aeb3259740e46128cec4f2d406cc1f631d14b5806483aac5
+      Copying blob sha256:18f922275a6f0d7dde75027a285dd23437bd26de80f7e66a025a49739b63db79
+      Copying blob sha256:dbd67cd33317bd46525933031a835e412c535d2ddfe831acfb4f4fd789d240bb
+      Copying blob sha256:c86651a97b9e59432161199e0348a8963a57bdc51ded0e86da5c2c281630dc52
+      Copying config sha256:db5ef85912d88ebab72a73720d640c2d901426b14cfc44936c08625ec325a8bc
+      Writing manifest to image destination
+      Storing signatures
+      FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: conveyor failed to get: while getting config: no descriptor found for reference "3e551cad9b3846a0260375b7e8ed75f20ad1dad7e0f40859cc5993dd67c0fa47"
+
+
+
+ -- Check '.nextflow.log' file for details
+

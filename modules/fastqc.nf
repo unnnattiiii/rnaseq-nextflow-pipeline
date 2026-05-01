@@ -1,7 +1,7 @@
 process FASTQC_RAW {
     tag "$sample_id"
     publishDir "${params.outdir}/fastqc_raw", mode: 'copy'
-    container 'biocontainers/fastqc:v0.11.9_cv8'
+    container 'quay.io/biocontainers/fastqc:0.11.9--0'
 
     input:
     tuple val(sample_id), path(reads)
@@ -19,7 +19,7 @@ process FASTQC_RAW {
 process FASTQC_TRIMMED {
     tag "$sample_id"
     publishDir "${params.outdir}/fastqc_trimmed", mode: 'copy'
-    container 'biocontainers/fastqc:v0.11.9_cv8'
+    container 'quay.io/biocontainers/fastqc:0.11.9--0'
 
     input:
     tuple val(sample_id), path(read1), path(read2)

@@ -12,10 +12,11 @@ process HISAT2 {
 
     script:
     """
+    export TMPDIR=\$(pwd)
     hisat2 -x ${index_dir}/genome \
            -1 ${read1} \
            -2 ${read2} \
-           --threads 2 \
+           --threads 4 \
            --dta \
            -S ${sample_id}.sam
 

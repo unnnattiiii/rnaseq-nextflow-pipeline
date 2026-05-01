@@ -1,0 +1,10 @@
+2026-04-27T13:58:52 fasterq-dump.3.2.0 err: cannot find 'SRR2015656' -> RC(rcVFS,rcQuery,rcExecuting,rcItem,rcNotFound)
+fasterq-dump quit with error code 3
+2026-04-27T13:58:52 fasterq-dump.3.2.0 err: cannot find 'SRR2015657' -> RC(rcVFS,rcQuery,rcExecuting,rcItem,rcNotFound)
+fasterq-dump quit with error code 3
+2026-04-27T13:58:53 fasterq-dump.3.2.0 err: cannot find 'SRR2015658' -> RC(rcVFS,rcQuery,rcExecuting,rcItem,rcNotFound)
+fasterq-dump quit with error code 3
+2026-04-27T13:58:57 fasterq-dump.3.2.0 err: cannot find 'SRR2015659' -> RC(rcVFS,rcQuery,rcExecuting,rcItem,rcNotFound)
+fasterq-dump quit with error code 3
+gzip: *.fastq: No such file or directory
+Done!

@@ -1,0 +1,152 @@
+[33mNextflow 26.04.0 is available - Please consider updating your version to it(B[m
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [scruffy_albattani] DSL2 - revision: 4be009970e
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+
+[1c/29c4ed] FASTQC_RAW (PD_2)     | 2 of 2, cached: 2
+[b4/f94c7c] FASTP (PD_2)          | 2 of 2, cached: 2
+[2a/d1a908] FASTQC_TRIMMED (PD_1) | 1 of 1, cached: 1
+[-        ] HISAT2                -
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4
+[-        ] HISAT2                  | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[-        ] HISAT2                  | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (1)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[aa/ef9592] HISAT2 (PD_1)           | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (3)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[19/ba6f75] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[19/ba6f75] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (5)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[15/f2cd08] HISAT2 (PD_2)           | 2 of 4
+[8c/76c0d6] FEATURECOUNTS (PD_2)    | 0 of 2
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (6)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[15/f2cd08] HISAT2 (PD_2)           | 2 of 4
+[f8/81a495] FEATURECOUNTS (CTRL_2)  | 0 of 2
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (6)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[15/f2cd08] HISAT2 (PD_2)           | 2 of 4
+[f8/81a495] FEATURECOUNTS (CTRL_2)  | 0 of 2
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (6)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[f8/81a495] FEATURECOUNTS (CTRL_2)  | 0 of 4
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (7)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[0f/4d78f7] FEATURECOUNTS (PD_1)    | 0 of 4
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (8)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[65/b39813] FEATURECOUNTS (CTRL_1)  | 0 of 4
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (8)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[f8/81a495] FEATURECOUNTS (CTRL_2)  | 2 of 4
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (8)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[65/b39813] FEATURECOUNTS (CTRL_1)  | 3 of 4
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (8)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[0f/4d78f7] FEATURECOUNTS (PD_1)    | 4 of 4 ✔
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (8)
+[28/b6f6d7] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[4c/214959] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[a9/4cfa84] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[90/655833] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[0f/4d78f7] FEATURECOUNTS (PD_1)    | 4 of 4 ✔
+[66/37b180] MULTIQC                 | 1 of 1, cached: 1 ✔
+Completed at: 01-May-2026 11:19:39
+Duration    : 4m 22s
+CPU hours   : 1.1 (45.6% cached)
+Succeeded   : 8
+Cached      : 13
+
+

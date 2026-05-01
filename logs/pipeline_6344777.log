@@ -1,0 +1,83 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [astonishing_bohr] DSL2 - revision: 25c6d9d8f8
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+
+[32/9fe134] FASTQC_RAW (PD_2)     | 2 of 2, cached: 2
+[75/5f4842] FASTP (PD_1)          | 2 of 2, cached: 2
+[d4/edd715] FASTQC_TRIMMED (PD_1) | 1 of 1, cached: 1
+[48/c07683] HISAT2 (PD_1)         | 2 of 2, cached: 2
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 3 of 3, cached: 3
+[b9/3080fd] HISAT2 (CTRL_1)         | 3 of 3, cached: 3
+[-        ] FEATURECOUNTS           | 0 of 3
+[-        ] MULTIQC                 -
+
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[-        ] FEATURECOUNTS           | 0 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (2)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[24/9b82ff] FEATURECOUNTS (PD_1)    | 0 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[1f/e7c75d] FEATURECOUNTS (CTRL_2)  | 0 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[24/9b82ff] FEATURECOUNTS (PD_1)    | 3 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[1f/e7c75d] FEATURECOUNTS (CTRL_2)  | 4 of 4 ✔
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+
+executor >  slurm (4)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 4 of 4, cached: 4 ✔
+[76/424717] FASTP (CTRL_2)          | 4 of 4, cached: 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 4 of 4, cached: 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 4 of 4, cached: 4 ✔
+[1f/e7c75d] FEATURECOUNTS (CTRL_2)  | 4 of 4 ✔
+[8a/e4eef0] MULTIQC                 | 1 of 1, cached: 1 ✔
+Completed at: 25-Apr-2026 22:43:40
+Duration    : 1m 52s
+CPU hours   : 1.9 (98% cached)
+Succeeded   : 4
+Cached      : 17
+
+

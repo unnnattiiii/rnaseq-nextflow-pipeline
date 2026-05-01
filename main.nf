@@ -10,8 +10,8 @@ include { MULTIQC }                     from './modules/multiqc'
 
 params.input        = "$projectDir/samplesheet.csv"
 params.outdir       = "$projectDir/results"
-params.genome_index = "$projectDir/genome/dm6/genome"
-params.gtf          = "$projectDir/genome/dm6.gtf"
+params.genome_index = "$projectDir/genome/grch38"
+params.gtf          = "$projectDir/genome/Homo_sapiens.GRCh38.109.gtf"
 
 workflow {
     reads_ch = Channel
@@ -22,7 +22,7 @@ workflow {
     FASTQC_RAW(reads_ch)
     trimmed = FASTP(reads_ch)
     FASTQC_TRIMMED(trimmed.reads)
-    aligned = HISAT2(trimmed.reads, Channel.fromPath("$projectDir/genome/dm6").first())
+    aligned = HISAT2(trimmed.reads, Channel.fromPath(params.genome_index).first())
     FEATURECOUNTS(aligned, Channel.fromPath(params.gtf).first())
     MULTIQC(
         FASTQC_RAW.out.zip.collect()
@@ -31,3 +31,4 @@ workflow {
         .collect()
     )
 }
+

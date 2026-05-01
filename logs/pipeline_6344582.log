@@ -1,0 +1,470 @@
+
+ N E X T F L O W   ~  version 25.10.4
+
+Launching `main.nf` [nasty_wescoff] DSL2 - revision: 25c6d9d8f8
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          -
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          | 0 of 2
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+[-        ] FASTQC_RAW     -
+[-        ] FASTP          | 0 of 4
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (1)
+[-        ] FASTQC_RAW     -
+[75/5f4842] FASTP (PD_1)   | 0 of 4
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (2)
+[-        ] FASTQC_RAW     -
+[3f/3e3b11] FASTP (PD_2)   | 0 of 4
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (3)
+[-        ] FASTQC_RAW     -
+[76/424717] FASTP (CTRL_2) | 0 of 4
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (4)
+[-        ] FASTQC_RAW     -
+[8b/cc5427] FASTP (CTRL_1) | 0 of 4
+[-        ] FASTQC_TRIMMED -
+[-        ] HISAT2         -
+[-        ] FEATURECOUNTS  -
+[-        ] MULTIQC        -
+Pulling Singularity image docker://quay.io/biocontainers/fastp:0.23.2--h5f740d0_3 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastp-0.23.2--h5f740d0_3.img]
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (5)
+[32/9fe134] FASTQC_RAW (PD_2) | 0 of 4
+[8b/cc5427] FASTP (CTRL_1)    | 0 of 4
+[-        ] FASTQC_TRIMMED    -
+[-        ] HISAT2            -
+[-        ] FEATURECOUNTS     -
+[-        ] MULTIQC           -
+
+
+
+
+executor >  slurm (7)
+[55/99de07] FASTQC_RAW (CTRL_1) | 0 of 4
+[8b/cc5427] FASTP (CTRL_1)      | 0 of 4
+[-        ] FASTQC_TRIMMED      -
+[-        ] HISAT2              -
+[-        ] FEATURECOUNTS       -
+[-        ] MULTIQC             -
+
+
+
+
+executor >  slurm (8)
+[b4/5018fb] FASTQC_RAW (CTRL_2) | 0 of 4
+[8b/cc5427] FASTP (CTRL_1)      | 0 of 4
+[-        ] FASTQC_TRIMMED      -
+[-        ] HISAT2              -
+[-        ] FEATURECOUNTS       -
+[-        ] MULTIQC             -
+
+executor >  slurm (8)
+[b4/5018fb] FASTQC_RAW (CTRL_2) | 0 of 4
+[8b/cc5427] FASTP (CTRL_1)      | 0 of 4
+[-        ] FASTQC_TRIMMED      -
+[-        ] HISAT2              -
+[-        ] FEATURECOUNTS       -
+[-        ] MULTIQC             -
+
+executor >  slurm (8)
+[b4/5018fb] FASTQC_RAW (CTRL_2) | 0 of 4
+[8b/cc5427] FASTP (CTRL_1)      | 0 of 4
+[-        ] FASTQC_TRIMMED      -
+[-        ] HISAT2              -
+[-        ] FEATURECOUNTS       -
+[-        ] MULTIQC             -
+
+executor >  slurm (8)
+[b4/5018fb] FASTQC_RAW (CTRL_2) | 0 of 4
+[75/5f4842] FASTP (PD_1)        | 1 of 4
+[-        ] FASTQC_TRIMMED      | 0 of 1
+[-        ] HISAT2              -
+[-        ] FEATURECOUNTS       -
+[-        ] MULTIQC             -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (9)
+[b4/5018fb] FASTQC_RAW (CTRL_2)   | 0 of 4
+[75/5f4842] FASTP (PD_1)          | 1 of 4
+[d4/edd715] FASTQC_TRIMMED (PD_1) | 0 of 1
+[-        ] HISAT2                -
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (9)
+[b4/5018fb] FASTQC_RAW (CTRL_2)   | 0 of 4
+[76/424717] FASTP (CTRL_2)        | 3 of 4
+[d4/edd715] FASTQC_TRIMMED (PD_1) | 0 of 3
+[-        ] HISAT2                -
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (10)
+[b4/5018fb] FASTQC_RAW (CTRL_2)   | 2 of 4
+[8b/cc5427] FASTP (CTRL_1)        | 4 of 4 ✔
+[ec/4e485f] FASTQC_TRIMMED (PD_2) | 0 of 4
+[-        ] HISAT2                -
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (11)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 2 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[e8/e2a26e] FASTQC_TRIMMED (CTRL_2) | 0 of 4
+[-        ] HISAT2                  -
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (12)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 2 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[-        ] HISAT2                  -
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (12)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 2 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[-        ] HISAT2                  -
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (12)
+[b4/5018fb] FASTQC_RAW (CTRL_2)     | 2 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[-        ] HISAT2                  -
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+Pulling Singularity image docker://quay.io/biocontainers/mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1:2880dd9d8ad0a7b221d4eacda9a818e92983128d-0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-mulled-v2-a97e90b3b802d1da3d6958e0867610c718cb5eb1-2880dd9d8ad0a7b221d4eacda9a818e92983128d-0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (12)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[-        ] HISAT2                  -
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+
+
+executor >  slurm (12)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[-        ] HISAT2                  | 0 of 3
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+
+
+executor >  slurm (13)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[60/012df8] HISAT2 (PD_2)           | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (14)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[48/c07683] HISAT2 (PD_1)           | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (15)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[c0/116509] HISAT2 (CTRL_2)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (16)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 0 of 4
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (16)
+[55/99de07] FASTQC_RAW (CTRL_1)     | 3 of 4
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[d4/edd715] FASTQC_TRIMMED (PD_1)   | 1 of 4
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (16)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[d4/edd715] FASTQC_TRIMMED (PD_1)   | 1 of 4
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+
+executor >  slurm (16)
+[03/34a34a] FASTQC_RAW (PD_1)     | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)        | 4 of 4 ✔
+[d4/edd715] FASTQC_TRIMMED (PD_1) | 1 of 4
+[b9/3080fd] HISAT2 (CTRL_1)       | 0 of 4
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+
+executor >  slurm (16)
+[03/34a34a] FASTQC_RAW (PD_1)     | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)        | 4 of 4 ✔
+[ec/4e485f] FASTQC_TRIMMED (PD_2) | 3 of 4
+[b9/3080fd] HISAT2 (CTRL_1)       | 0 of 4
+[-        ] FEATURECOUNTS         -
+[-        ] MULTIQC               -
+
+executor >  slurm (16)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 -
+Pulling Singularity image docker://quay.io/biocontainers/multiqc:1.13--pyhdfd78af_0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-multiqc-1.13--pyhdfd78af_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (16)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[-        ] MULTIQC                 | 0 of 1
+
+
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[8a/e4eef0] MULTIQC                 | 0 of 1
+
+
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[8a/e4eef0] MULTIQC                 | 0 of 1
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 0 of 4
+[-        ] FEATURECOUNTS           -
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[c0/116509] HISAT2 (CTRL_2)         | 1 of 4
+[-        ] FEATURECOUNTS           -
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+Pulling Singularity image docker://quay.io/biocontainers/subread:2.0.1--hed695b0_0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-subread-2.0.1--hed695b0_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[60/012df8] HISAT2 (PD_2)           | 2 of 4
+[-        ] FEATURECOUNTS           -
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+Pulling Singularity image docker://quay.io/biocontainers/subread:2.0.1--hed695b0_0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-subread-2.0.1--hed695b0_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (17)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[60/012df8] HISAT2 (PD_2)           | 2 of 4
+[-        ] FEATURECOUNTS           | 0 of 2
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+Pulling Singularity image docker://quay.io/biocontainers/subread:2.0.1--hed695b0_0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-subread-2.0.1--hed695b0_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (19)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[60/012df8] HISAT2 (PD_2)           | 2 of 4
+[0b/3e4d70] FEATURECOUNTS (CTRL_2)  | 0 of 2
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+Pulling Singularity image docker://quay.io/biocontainers/subread:2.0.1--hed695b0_0 [cache /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity/quay.io-biocontainers-subread-2.0.1--hed695b0_0.img]
+WARN: Singularity cache directory has not been defined -- Remote image will be stored in the path: /home/moradiya.u/rnaseq-nextflow-pipeline/work/singularity -- Use the environment variable NXF_SINGULARITY_CACHEDIR to specify a different location
+
+executor >  slurm (19)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[60/012df8] HISAT2 (PD_2)           | 2 of 4
+[0b/3e4d70] FEATURECOUNTS (CTRL_2)  | 0 of 2
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+
+
+executor >  slurm (19)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[48/c07683] HISAT2 (PD_1)           | 3 of 4
+[0b/3e4d70] FEATURECOUNTS (CTRL_2)  | 0 of 3
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+
+
+executor >  slurm (20)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[48/c07683] HISAT2 (PD_1)           | 3 of 4
+[fc/b08f98] FEATURECOUNTS (PD_1)    | 0 of 3
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (20)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[48/c07683] HISAT2 (PD_1)           | 3 of 4
+[0b/3e4d70] FEATURECOUNTS (CTRL_2)  | 2 of 3
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (20)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[0b/3e4d70] FEATURECOUNTS (CTRL_2)  | 2 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (21)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[40/f49cd7] FEATURECOUNTS (CTRL_1)  | 2 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (21)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[40/f49cd7] FEATURECOUNTS (CTRL_1)  | 2 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (21)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[fc/b08f98] FEATURECOUNTS (PD_1)    | 3 of 4
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (21)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[40/f49cd7] FEATURECOUNTS (CTRL_1)  | 4 of 4 ✔
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+
+executor >  slurm (21)
+[03/34a34a] FASTQC_RAW (PD_1)       | 4 of 4 ✔
+[8b/cc5427] FASTP (CTRL_1)          | 4 of 4 ✔
+[f2/eacff2] FASTQC_TRIMMED (CTRL_1) | 4 of 4 ✔
+[b9/3080fd] HISAT2 (CTRL_1)         | 4 of 4 ✔
+[40/f49cd7] FEATURECOUNTS (CTRL_1)  | 4 of 4 ✔
+[8a/e4eef0] MULTIQC                 | 1 of 1 ✔
+Completed at: 25-Apr-2026 21:56:50
+Duration    : 8m 57s
+CPU hours   : 2.0
+Succeeded   : 21
+
+

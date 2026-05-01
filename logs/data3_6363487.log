@@ -1,0 +1,5 @@
+[M::bam2fq_mainloop] discarded 0 singletons
+[M::bam2fq_mainloop] processed 8972084 reads
+gzip: SRR2015656_2.fastq.gz already exists;	not overwritten
+Done SRR2015656
+slurmstepd: error: *** JOB 6363487 ON c0664 CANCELLED AT 2026-04-27T11:09:40 ***
