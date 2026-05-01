@@ -16,7 +16,8 @@ A modular, containerized RNA-seq pipeline built with Nextflow DSL2. Performs end
 ## Requirements
 
 - Nextflow >= 21.10
-- Docker
+- Docker (local) or Singularity (HPC)
+- SLURM (for HPC execution)
 
 All tools run inside Docker containers — no manual installation needed.
 
@@ -38,9 +39,15 @@ All tools run inside Docker containers — no manual installation needed.
 
 ## Test Data
 
-Pipeline was tested locally using human RNA-seq data (SRR6357070) mapped against 
-the Drosophila melanogaster dm6 genome as a lightweight test reference.
-Full analysis intended to be run on HPC with appropriate human genome index (GRCh38).
+Pipeline was developed and tested in two environments:
+
+**Local (Mac, Docker):** Paired-end RNA-seq test data from nf-core 
+test datasets, aligned to Drosophila melanogaster dm6 genome.
+
+**HPC (Northeastern Explorer cluster, Singularity + SLURM):** 
+Paired-end S. cerevisiae RNA-seq data (nf-core test datasets, GSE110004), 
+aligned to S. cerevisiae R64-1-1 genome. Pipeline submitted 21 SLURM 
+jobs across multiple compute nodes, completing in under 4 minutes.
 
 ## Author
 
