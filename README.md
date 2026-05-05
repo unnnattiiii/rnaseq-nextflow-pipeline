@@ -1,17 +1,26 @@
 # RNA-seq Analysis Pipeline
 
-A modular, containerized RNA-seq pipeline built with Nextflow DSL2. Performs end-to-end processing from raw reads to gene counts.
+A modular, containerized RNA-seq pipeline built with Nextflow DSL2 that processes 
+raw sequencing reads into gene counts. Built to be portable — runs locally with 
+Docker and on HPC clusters with Singularity and SLURM without changing any pipeline code.
 
 ## Pipeline Overview
 
-## Steps
+## What Each Step Does
 
-1. **FastQC** - Quality control on raw reads
-2. **fastp** - Adapter trimming and quality filtering
-3. **FastQC** - Quality control on trimmed reads
-4. **HISAT2** - Splice-aware alignment to reference genome
-5. **featureCounts** - Read quantification per gene
-6. **MultiQC** - Aggregated QC report
+1. **FastQC** — checks raw read quality before any processing
+2. **fastp** — trims adapter sequences and filters low quality reads
+3. **FastQC** — checks quality again after trimming to confirm fastp worked
+4. **HISAT2** — aligns trimmed reads to a reference genome (splice-aware)
+5. **featureCounts** — counts how many reads map to each gene
+6. **MultiQC** — aggregates all QC reports into a single HTML summary
+
+## Why Nextflow
+
+Nextflow handles job scheduling, parallelization, and caching automatically. 
+Each process runs inside its own container so there's nothing to install manually. 
+The same pipeline runs identically on a laptop or an HPC cluster — only the 
+config file changes.
 
 ## Requirements
 
@@ -19,36 +28,58 @@ A modular, containerized RNA-seq pipeline built with Nextflow DSL2. Performs end
 - Docker (local) or Singularity (HPC)
 - SLURM (for HPC execution)
 
-All tools run inside Docker containers — no manual installation needed.
+## Project Structure
 
 ## Usage
 
-1. Clone the repository:
-2. Create a samplesheet.csv:
-3. Run the pipeline:
+**1. Clone the repository:**
+```bash
+git clone https://github.com/unnnattiiii/rnaseq-nextflow-pipeline.git
+cd rnaseq-nextflow-pipeline
+```
+
+**2. Create your samplesheet.csv:**
+
+**3. Run locally with Docker:**
+```bash
+nextflow run main.nf \
+    --input samplesheet.csv \
+    --genome_index /path/to/genome/index \
+    --gtf /path/to/annotation.gtf \
+    --outdir results
+```
+
+**4. Run on HPC with SLURM:**
+```bash
+sbatch run_pipeline.sh
+```
+
 ## Output
 
 | Directory | Contents |
 |-----------|----------|
 | fastqc_raw/ | FastQC reports for raw reads |
-| fastp/ | Trimmed reads and fastp reports |
-| fastqc_trimmed/ | FastQC reports for trimmed reads |
-| hisat2/ | BAM files and indexes |
-| featurecounts/ | Gene count matrices |
-| multiqc/ | Aggregated QC report |
+| fastp/ | Trimmed reads and fastp HTML/JSON reports |
+| fastqc_trimmed/ | FastQC reports after trimming |
+| hisat2/ | Sorted BAM files and indexes |
+| featurecounts/ | Per-sample gene count matrices |
+| multiqc/ | Aggregated QC report (single HTML file) |
 
 ## Test Data
 
-Pipeline was developed and tested in two environments:
+Developed and tested in two environments:
 
-**Local (Mac, Docker):** Paired-end RNA-seq test data from nf-core 
-test datasets, aligned to Drosophila melanogaster dm6 genome.
+**Local (Mac, Docker):** Paired-end S. cerevisiae RNA-seq data from nf-core 
+test datasets (GSE110004), aligned to the S. cerevisiae R64-1-1 reference genome.
 
-**HPC (Northeastern Explorer cluster, Singularity + SLURM):** 
-Paired-end S. cerevisiae RNA-seq data (nf-core test datasets, GSE110004), 
-aligned to S. cerevisiae R64-1-1 genome. Pipeline submitted 21 SLURM 
-jobs across multiple compute nodes, completing in under 4 minutes.
+**HPC (Northeastern Explorer cluster, Singularity + SLURM):** Same dataset 
+run on the cluster. Nextflow submitted 21 SLURM jobs distributed across 
+multiple compute nodes, completing in under 4 minutes.
+
+For real analysis, swap in your own FASTQ files, genome index, and GTF 
+annotation — the pipeline code stays the same.
 
 ## Author
 
-Unnati Moradiya
+Unnati Moradiya — MS Bioinformatics, Northeastern University  
+[LinkedIn](https://www.linkedin.com/in/unnatimoradiya) | [GitHub](https://github.com/unnnattiiii)
