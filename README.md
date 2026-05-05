@@ -5,6 +5,7 @@ raw sequencing reads into gene counts. Built to be portable — runs locally wit
 Docker and on HPC clusters with Singularity and SLURM without changing any pipeline code.
 
 ## Pipeline Overview
+Raw FASTQ → FastQC → fastp → FastQC → HISAT2 → featureCounts → MultiQC
 
 ## What Each Step Does
 
@@ -29,6 +30,16 @@ config file changes.
 - SLURM (for HPC execution)
 
 ## Project Structure
+rnaseq-nextflow-pipeline/
+├── main.nf
+├── nextflow.config
+├── samplesheet.csv
+└── modules/
+├── fastqc.nf
+├── fastp.nf
+├── hisat2.nf
+├── featurecounts.nf
+└── multiqc.nf
 
 ## Usage
 
