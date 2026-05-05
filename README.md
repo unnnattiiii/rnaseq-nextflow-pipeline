@@ -30,16 +30,18 @@ config file changes.
 - SLURM (for HPC execution)
 
 ## Project Structure
+```
 rnaseq-nextflow-pipeline/
 ├── main.nf
 ├── nextflow.config
 ├── samplesheet.csv
 └── modules/
-├── fastqc.nf
-├── fastp.nf
-├── hisat2.nf
-├── featurecounts.nf
-└── multiqc.nf
+    ├── fastqc.nf
+    ├── fastp.nf
+    ├── hisat2.nf
+    ├── featurecounts.nf
+    └── multiqc.nf
+```
 
 ## Usage
 
@@ -50,6 +52,11 @@ cd rnaseq-nextflow-pipeline
 ```
 
 **2. Create your samplesheet.csv:**
+```
+sample,fastq_1,fastq_2
+SAMPLE1,data/sample1_1.fastq.gz,data/sample1_2.fastq.gz
+SAMPLE2,data/sample2_1.fastq.gz,data/sample2_2.fastq.gz
+```
 
 **3. Run locally with Docker:**
 ```bash
